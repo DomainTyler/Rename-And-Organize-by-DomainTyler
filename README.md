@@ -23,7 +23,3 @@ A simple Windows batch script to **rename and organize files** in a specified fo
 5. The script will rename and move the files into folders named by their creation date.
 
 ---
-
-## Example
-
-Before:
