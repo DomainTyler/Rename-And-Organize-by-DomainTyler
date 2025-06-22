@@ -23,3 +23,49 @@ A simple Windows batch script to **rename and organize files** in a specified fo
 5. The script will rename and move the files into folders named by their creation date.
 
 ---
+## Example
+
+Before:
+/MyFolder
+├─ file1.txt
+├─ image.png
+└─ document.docx
+
+After running the script, files will be organized like:
+/MyFolder
+├─ Thursday May 15 2025
+├─ Thursday May 15 2025 10-30 AM.txt
+├─ Thursday May 15 2025 10-45 AM.png
+└─ Thursday May 15 2025 11-00 AM.docx
+
+
+---
+
+## Requirements
+
+- Windows OS with PowerShell support (default on Windows 7 and later).
+- Command Prompt access to run batch files.
+
+---
+
+## Limitations
+
+- Only processes files in the specified folder (does not recurse subfolders).
+- Uses file creation time which can be changed by some tools or copied files.
+
+---
+
+## License
+
+This project is released under the MIT License.
+
+---
+
+## Author
+
+**DomainTyler**
+
+Feel free to contribute or report issues!
+
+---
+
